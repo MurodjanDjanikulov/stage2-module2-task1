@@ -4,6 +4,7 @@
 <html>
 <body>
 <head>
+    <meta charset="UTF-8">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 </head>
@@ -28,3 +29,16 @@
 </div>
 </body>
 </html>
+<%--
+<%
+    User user = (User) request.getAttribute("user");
+    if (user != null) {
+%>
+<p>User '<%= user.getFirstName() %> <%= user.getLastName() %>' added!</p>
+<%
+    }
+%>
+<h3 class="title w3-text-black">
+    <span>Add user</span>
+</h3>
+--%>
